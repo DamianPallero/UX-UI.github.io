@@ -1,0 +1,90 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 32px auto;
+    background: #222;
+    font-size: 1.1rem;
+    color: #222;
+}
+
+td, th {
+    vertical-align: middle;
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #f0f0f8;
+}
+
+tr:nth-child(even) td, tr:nth-child(even) th {
+    background-color: #dbeafe;
+}
+tr:nth-child(odd) td, tr:nth-child(odd) th {
+    background-color: #f0f0f8;
+}
+tr:hover td, tr:hover th {
+    background-color: #b6e0fe;
+    transition: background 0.2s;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 32px 0;
+    background: #333;
+    min-height: 100vh;
+}
+
+header h1 {
+    text-align: center;
+    color: #09b568;
+    margin-bottom: 24px;
+    letter-spacing: 2px;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.color-image {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #888;
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+}
+
+td p {
+    margin: 0;
+    text-align: center;
+    font-size: 1.05rem;
+    color: #222;
+}
+
+td a {
+    color: #2563eb;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+td a:hover {
+    color: #1e40af;
+}
+
+a:link {
+    text-decoration: none;
+    color: #09b568;
+    background-color: transparent;
+}
+
+a:visited {
+    color: #9e9401;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #01fc9b;
+    text-decoration: underline;
+    background-color: transparent;
+}
